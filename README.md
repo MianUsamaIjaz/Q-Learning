@@ -4,11 +4,40 @@
 
 Welcome to the repository showcasing my implementation of the Q-Learning assignment for Computer Science 3200. This assignment focused on optimizing decision-making in a dynamic environment using the Q-Learning algorithm.
 
+
 ## Video Showcase
 
 [![Q Learning](Thumbnail.png)](https://drive.google.com/file/d/1nB37odwJm-mS_CsAhanOx6oIKT6tcNPg/view?usp=drive_link)
 
 Explore the features and functionalities of the Q-Learning assignment through the provided video. This video demonstrates the successful implementation of the Q-Learning algorithm and showcases the dynamic decision-making capabilities in action.
+
+
+## Assignment Details
+
+This project involves Q-Learning, a type of Reinforcement Learning. It has functionalities for learning iterations, action selection from policy, and updating Q-values and policies.
+
+This project is implemented in JavaScript. It uses classes to represent the reinforcement learning environment and the Q-Learning agent. The Q-Learning algorithm is configured with parameters like alpha, gamma, and epsilon.
+
+### Alpha (α):
+
+- Alpha, often denoted as α, is the learning rate in the Q-Learning algorithm. It determines the extent to which the Q-values are updated based on new information.
+- A higher alpha results in faster learning but may lead to instability or overshooting optimal values. A lower alpha ensures more stable learning but may take longer to converge.
+
+### Epsilon (ε):
+
+- Epsilon, often denoted as ε, is the exploration-exploitation factor in the Q-Learning algorithm. It determines the likelihood of the agent exploring a new action instead of exploiting the current best-known action.
+- Higher epsilon values encourage more exploration, allowing the agent to discover potentially better actions. Lower epsilon values favor exploitation of the current knowledge, focusing on actions with higher Q-values.
+  
+### Gamma (γ):
+
+- Gamma, denoted as γ, is the discount factor in the Q-Learning algorithm. It represents the importance of future rewards. A higher gamma gives more weight to future rewards, while a lower gamma focuses more on immediate rewards.
+- Higher gamma values prioritize long-term rewards, which can lead to more strategic behavior. Lower gamma values make the agent prioritize short-term rewards, resulting in more impulsive behavior.
+
+### Iteration Rate:
+
+- Iteration rate refers to the frequency or speed at which the Q-Learning algorithm performs learning iterations. It determines how quickly the agent updates its Q-values based on experiences in the environment.
+- A higher iteration rate accelerates learning but may lead to convergence issues or instability. A lower iteration rate ensures more stable learning but may require more iterations to converge to optimal values.
+
 
 ## Assignment Overview
 
@@ -39,6 +68,7 @@ In this assignment, the code was evaluated based on the following criteria. The 
 
 ### Max Assignment Mark: 100
 ### Obtained Assignment Mark: 99
+
 
 ## Note
 
