@@ -39,7 +39,7 @@ This project is implemented in JavaScript. It uses classes to represent the rein
 - A higher iteration rate accelerates learning but may lead to convergence issues or instability. A lower iteration rate ensures more stable learning but may require more iterations to converge to optimal values.
 
 
-## Assignment Overview
+## Assignment Grading
 
 In this assignment, the code was evaluated based on the following criteria. The total marks add up to 100, and deductions were made for incomplete or improperly implemented features.
 
